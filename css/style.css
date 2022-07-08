@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
+.container {
+    height: 50vh;
+    width: 30vw;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, 
+                rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    background: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+
+.title {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    font-size: 23px;
+    font-family: 500;
+    color: black;
+    font-weight: 600;
+}
+
+.enter_text {
+    height: 100px;
+    width: 250px;
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    outline: none;
+    border: 1px solid #514CE1;
+}
+
+.title::before {
+    content: "Enter text";
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    top: 75px;
+    color: black;
+    font-size: 15px;
+    margin-left: -40px;
+    font-weight: 500;
+}
+
+.speak_btn {
+    color: white;
+    background: #514CE1;
+    height: 40px;
+    width: 250px;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+}
